@@ -3,8 +3,9 @@ My personal website. link: forgondolin.github.io
 
 Technologies used
 ------------------
-- 
--
+- Haskell
+- Spock
+- Cabal
 
 Contact
 --------------
