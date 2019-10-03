@@ -16,12 +16,12 @@ main :: IO ()
 main =
     do ref <- newIORef 0
        spockCfg <- defaultSpockCfg EmptySession PCNoDatabase (DummyAppState ref)
-       runSpock 8080 (spock spockCfg app)
+       runSpock 9090 (spock spockCfg app)
 
 app :: SpockM () MySession MyAppState ()
 app =
     do get root $
-           text "Hello World!"
+           text "Kaleb Alves!"
        get ("hello" <//> var) $ \name ->
            do (DummyAppState ref) <- getState
               visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
