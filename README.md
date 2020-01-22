@@ -6,6 +6,7 @@ Technologies used
 - Haskell
 - Scotty
 - Cabal
+- Stack
 - Yesod
 - Blaze-html
 
