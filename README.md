@@ -4,8 +4,10 @@ My personal website. link: forgondolin.github.io
 Technologies used
 ------------------
 - Haskell
-- Spock
+- Scotty
 - Cabal
+- Yesod
+- Blaze-html
 
 Contact
 --------------
